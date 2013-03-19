@@ -37,6 +37,7 @@ import textwrap
 import shutil
 import time
 import yaml
+import locale
 from optparse import OptionParser, IndentedHelpFormatter
 
 from rosinstall.cli_common import get_info_list, get_info_table, \
